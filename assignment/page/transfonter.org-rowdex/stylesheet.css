@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Right Strongline';
+    src: url('RightStrongline-Regular.woff2') format('woff2'),
+        url('RightStrongline-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rowdex';
+    src: url('Rowdex.woff2') format('woff2'),
+        url('Rowdex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,9 @@
+.box {
+  height: 250px;
+  width: 250px;
+  color: #fff;
+  background: linear-gradient(blue, pink);
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}

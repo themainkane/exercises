@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto";
+  font-weight: 200;
+  color: white;
+  background-color: #4444;
+}
+h1,
+h2 {
+  font-weight: 500;
+}
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(225, 245, 253, 0.5);
+}
+a:hover {
+  color: blue;
+}
+.med_image {
+  width: 30%;
+  opacity: 0.5;
+}
+
+.med_image:hover {
+  opacity: 1;
+}
+/* list formatting */
+.top_5 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+top-5__header {
+  color: blue;
+}
+
+.top-5__header.top-5__header--colorized {
+  color: pink;
+  font-size: 2rem;
+}

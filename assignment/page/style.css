@@ -1,0 +1,56 @@
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Rowdex", Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+h1 {
+  color: #23226c;
+  font-weight: 900;
+  font-size: 250%;
+}
+
+h2 {
+  color: #23226c;
+  font-weight: 900;
+  font-size: 180%;
+}
+
+p {
+  color: #555555;
+  line-height: 150%;
+  text-align: justify;
+}
+
+strong {
+  color: black;
+}
+
+/* remove italics font */
+em {
+  background-color: #d2d6ef;
+  font-style: normal;
+}
+
+a {
+  color: #6290c3;
+}
+
+.intro {
+  background-color: #d2d6ef;
+}
+
+.conclusion {
+  background-color: #d2d6ef;
+}

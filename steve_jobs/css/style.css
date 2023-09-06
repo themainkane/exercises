@@ -1,0 +1,17 @@
+body {
+  background-image: url("../img/apple-256261_1280.jpg");
+  color: blueviolet;
+}
+
+.quote {
+  background-color: lightgray;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 88%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
