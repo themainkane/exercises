@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  font-family: "roboto";
+}
+
+body {
+}
+
+/* heading */
+header {
+  background-image: url(../img/children-7339439_1280.jpg);
+}
+
+h1 {
+  font-weight: 900;
+  color: whitesmoke;
+  position: relative;
+  margin-left: 6%;
+}
+
+.b {
+  font-style: normal;
+  color: #ffe964;
+}
+.i {
+  font-style: normal;
+  color: #ff523d;
+}
+
+.k {
+  font-style: normal;
+  color: #223c88;
+}
+
+.kindy {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-line: calc(-20px);
+}
+.full-bg {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 6% 20%;
+}
+
+.nav {
+  height: 30px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin: -20px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.nav__link {
+  margin-left: 3%;
+  margin-right: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link:hover {
+  color: grey;
+}
+
+/* main divs */
+
+.mission {
+  background-color: #ffe964;
+  text-align: center;
+}
+
+.about-us {
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+.team {
+  background-color: #ff523d;
+  text-align: left;
+  color: whitesmoke;
+}
+
+footer {
+  text-align: left;
+  background-color: #223c88;
+  color: whitesmoke;
+}
+
+.team__photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 9%;
+}
+
+.team p {
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 20%;
+  text-align: center;
+}

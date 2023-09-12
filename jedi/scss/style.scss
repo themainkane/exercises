@@ -1,0 +1,97 @@
+@use "sass:color";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// variable declarations
+
+$primary_color: #5A5A5A;
+$secondary_color: color.scale($primary_color, $lightness: 50%);
+
+// mixin declarations
+
+@mixin flex-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+@mixin flex-center-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin flex-center-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin round-thumbnail {
+    width: 3%;
+    border-radius: 50%;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 300vw;
+
+}
+.header {
+    height: 8%;
+    &__banner {
+            @include flex-center-center();
+            background-image: url(/img/welcome.jpg);
+            height: 90%;
+        }
+                &__navbar {
+                    @include flex-center-left();
+                    background-color: $primary_color;
+                    height: 10%;
+        
+                    &--list {
+                        display: flex;
+                        flex-direction: row;
+                        width: 40%;
+                        justify-content: space-around;
+                        list-style-type: none;
+                        color: white;
+                    }
+    }
+        
+}
+
+
+.section {
+    @include flex-center-center();
+    height: 15%;
+        &__title{
+            
+        }
+    
+        &__images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width:50%;
+                &--round {
+                    @include round-thumbnail
+                }
+        }
+           
+    
+}
+
+
+
+
+
