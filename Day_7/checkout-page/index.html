@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container__main">
+      <div class="container__main-cards">
+        <div class="container__details">
+          <div class="container__details-three">
+            <div class="container__details-top">
+              <h3 class="container__details-top-title">Total</h3>
+              <p class="container__details-top-price price">$698</p>
+            </div>
+
+            <div class="container__details-middle">
+              <h3 class="container__details-middle-title">Detail</h3>
+              <div class="container__details-middle-products">
+                <div class="product1">
+                  <p>Product One</p>
+                  <p class="price">$599</p>
+                </div>
+                <div class="product2">
+                  <p>Product Two</p>
+                  <p class="price">$99</p>
+                </div>
+              </div>
+            </div>
+            <button>Pay Now</button>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="container__form">
+          <form action="#">
+            <div class="name-cardnum">
+              <div class="name">
+                <label class="label" for="name">Name</label>
+                <input type="text" id="name" placeholder="Jhon Doe" />
+              </div>
+
+              <div class="cardnum">
+                <label class="label" for="card_number">Card Number</label>
+                <input
+                  type="text"
+                  id="card_number"
+                  placeholder="1111 1111 1111 1111"
+                />
+              </div>
+            </div>
+            <div class="card-details">
+              <div class="expiration">
+                <label class="label" for="expiration">Expiration Date</label>
+                <input type="text" id="expiration" placeholder="MM   YY" />
+              </div>
+
+              <div class="cvv">
+                <label class="label" for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="123" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

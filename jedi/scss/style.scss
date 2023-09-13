@@ -69,13 +69,16 @@ $secondary_color: color.scale($primary_color, $lightness: 50%);
     }
         
 }
-
+ .sections {
+    height: 80%vh;
+    background-color: $secondary_color
+ }
 
 .section {
     @include flex-center-center();
     height: 15%;
         &__title{
-            
+
         }
     
         &__images {
